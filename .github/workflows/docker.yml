@@ -28,5 +28,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/reldnahc/jeopardy-classifier:latest
-            ghcr.io/reldnahc/jeopardy-classifier:${{ github.sha }}
+            ghcr.io/reldnahc/ai-jeopardy-classifier-api:latest
+            ghcr.io/reldnahc/ai-jeopardy-classifier-api:${{ github.sha }}
